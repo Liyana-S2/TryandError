@@ -8,13 +8,21 @@ package tryinglab2;
  *
  * @author User
  */
-public class Tryinglab2 {
+import java.util.Random;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+public class exercise1 {
+
+public static void main(String[] args) {
+Random g = new Random();
+int MAX = 100;
+int num = g.nextInt(MAX);
+
+if (num > 50) {
+            System.out.println("The number is greater than 50");
+}
+else {
+            System.out.println("The number is lesser than 50");
+}
+
+}
 }
