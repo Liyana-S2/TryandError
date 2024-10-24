@@ -1,0 +1,28 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package lecture.week3;
+
+/**
+ *
+ * @author User
+ */
+import java.util.Random;
+
+public class exercise1 {
+
+public static void main(String[] args) {
+Random g = new Random();
+int MAX = 100;
+int num = g.nextInt(MAX);
+
+if (num > 50) {
+            System.out.println("The number is greater than 50");
+}
+else {
+            System.out.println("The number is lesser than 50");
+}
+
+}
+}
